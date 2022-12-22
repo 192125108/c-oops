@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void sq(float a)
+{
+	cout<<"square="<<a*a<<endl;
+}
+void cube(float a)
+{
+	cout<<"cube="<<a*a*a;
+}
+int main() {
+    float  n;
+    cout <<"enter a number";
+    cin>>n;
+    sq(n);
+    cube(n);
+}
