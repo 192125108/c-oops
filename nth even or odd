@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,a;
+    cout <<"enter a number";
+    cin>>n;
+    a=n*2-1;
+    cout<<"Nth even number after n odd numbers is"<<a+n*2-1;
+}
