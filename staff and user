@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int total_user,staff_user,student_user,non_teaching_staff;
+	cout<<"enter the total user:";
+	cin>>total_user;
+	cout<<"enter the staff user:";
+	cin>>staff_user;
+	non_teaching_staff=staff_user/3;
+	student_user=total_user-(staff_user+non_teaching_staff);
+	cout<<student_user;
+}
