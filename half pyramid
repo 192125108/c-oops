@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+
+int gita(int b) {
+   int i, isPrime = 1;
+   for (i = 2; i <= (b/2); i++) {
+      if (b % i == 0){
+         isPrime = 0;
+         break;
+      }
+   }
+   if (isPrime==1 || b==2)
+      return 1;
+   else
+      return 0;
+}
+int main() {
+   int i, j, n;
+   int a = 2;
+    
+   cout<<("Enter the number of n\n");
+   cin>>n;
+     
+   for (i = 1; i <= n; i++) {
+      for (j = 1; j <= i; j++) {
+        while(!gita(a)){
+            a++;
+ }
+        cout<<a<<" ";
+        a++;
+      }
+      cout<<endl;
+   }
+   return 0 ;
+}
